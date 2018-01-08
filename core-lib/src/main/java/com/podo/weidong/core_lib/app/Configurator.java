@@ -1,11 +1,10 @@
-package com.podo.weidong.core_lib;
+package com.podo.weidong.core_lib.app;
 
 import com.joanzapata.iconify.IconFontDescriptor;
 import com.joanzapata.iconify.Iconify;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Objects;
 
 /**
  * 项目配置类

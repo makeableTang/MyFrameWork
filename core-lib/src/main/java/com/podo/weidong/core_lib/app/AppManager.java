@@ -1,4 +1,4 @@
-package com.podo.weidong.core_lib;
+package com.podo.weidong.core_lib.app;
 
 import android.content.Context;
 
