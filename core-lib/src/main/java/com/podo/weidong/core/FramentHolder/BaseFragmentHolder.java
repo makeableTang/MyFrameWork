@@ -1,4 +1,4 @@
-package com.podo.weidong.core_lib.FramentHolder;
+package com.podo.weidong.core.FramentHolder;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -39,7 +39,7 @@ public abstract class BaseFragmentHolder extends SwipeBackFragment {
             mUnbinder = ButterKnife.bind(this, rootView);
             onBindView(savedInstanceState, rootView);
         }
-        return super.onCreateView(inflater, container, savedInstanceState);
+        return rootView;
     }
 
     @Override

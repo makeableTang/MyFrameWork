@@ -1,4 +1,4 @@
-package com.podo.weidong.core_lib.app;
+package com.podo.weidong.core.app;
 
 /**
  * 项目配置枚举类

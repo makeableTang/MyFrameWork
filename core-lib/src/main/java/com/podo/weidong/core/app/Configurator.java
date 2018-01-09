@@ -1,4 +1,4 @@
-package com.podo.weidong.core_lib.app;
+package com.podo.weidong.core.app;
 
 import com.joanzapata.iconify.IconFontDescriptor;
 import com.joanzapata.iconify.Iconify;

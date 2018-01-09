@@ -1,10 +1,10 @@
-package com.podo.weidong.core_lib.activities;
+package com.podo.weidong.core.activities;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.ContentFrameLayout;
 
-import com.podo.weidong.core_lib.FramentHolder.SecondaryFragment;
+import com.podo.weidong.core.FramentHolder.SecondaryFragment;
 import com.podo.weidong.core_lib.R;
 
 import me.yokeyword.fragmentation.SupportActivity;
