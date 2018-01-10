@@ -70,6 +70,10 @@ public class Configurator {
     // 获取配置项内容
     final <T> T getConfiguration(Enum<ConfigType> type) {
         checkConfigureation();
-        return (T) APP_CONFIGS.get(type.name());
+        final Object value = APP_CONFIGS.get(type.name());
+        if (value == null) {
+            throw new NullPointerException(type.toString() + " IS NULL");
+        }
+        return (T) value;
     }
 }

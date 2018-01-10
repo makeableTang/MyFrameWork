@@ -11,11 +11,22 @@ import java.util.HashMap;
 public class AppManager {
     public static Configurator init(Context context) {
         getConfig().put(ConfigType.APPLICATION_CONTEXT.name(), context.getApplicationContext());
-        return Configurator.getInstance();
+        return getConfigurator();
     }
 
     private static HashMap<String, Object> getConfig() {
         return Configurator.getInstance().getAppConfigs();
     }
 
+    private static Configurator getConfigurator() {
+        return Configurator.getInstance();
+    }
+
+    public static <T> T getConfiguration(Enum<ConfigType> type) {
+        return getConfigurator().getConfiguration(type);
+    }
+
+    public static Context getApplicationContext() {
+        return getConfiguration(ConfigType.APPLICATION_CONTEXT);
+    }
 }
