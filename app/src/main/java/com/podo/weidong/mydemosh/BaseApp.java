@@ -17,7 +17,7 @@ public class BaseApp extends Application {
         AppManager.init(this)
                 .withIcon(new FontAwesomeModule())
                 .withIcon(new FontEcModule())
-                .withApiHost("")
+                .withApiHost("http://www.baidu.com/")
                 .configure();
     }
 }

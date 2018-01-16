@@ -1,6 +1,5 @@
-package com.podo.weidong.net;
+package com.podo.weidong.core.net;
 
-import java.util.Objects;
 import java.util.WeakHashMap;
 
 import okhttp3.MultipartBody;

@@ -46,7 +46,7 @@ public class Configurator {
 
     //检查是否配置完成
     private void checkConfigureation() {
-        final boolean isSuccess = (boolean) APP_CONFIGS.get(ConfigType.CONFIG_SUCCESS);
+        final boolean isSuccess = (boolean) APP_CONFIGS.get(ConfigType.CONFIG_SUCCESS.name());
         if (!isSuccess) {
             throw new RuntimeException("Configuration is not success");
         }

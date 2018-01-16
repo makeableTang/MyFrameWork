@@ -1,4 +1,4 @@
-package com.podo.weidong.net;
+package com.podo.weidong.core.net;
 
 /**
  * Created by Administrator on 2018/1/10 0010.
